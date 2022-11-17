@@ -1,0 +1,67 @@
+/* signika-regular - latin */
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/signika-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/signika-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/signika-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/signika-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/signika-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/signika-v20-latin-regular.svg#Signika') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: "Signika", sans-serif;
+  background-color: #FFF8FA;
+}
+
+h1 {
+  margin-top: 100px; 
+  margin-bottom: 100px;
+}
+.navBar {
+  background-color: #FFE9E7;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.card-style {
+  width: 15rem; 
+  border: none !important;
+  background-color: #FFF8FA;
+}
+
+.recipe {
+  max-width: 1500px;
+}
+.form-input {
+  max-width: 750px;
+  height: 350px;
+  border-color: #336D48;
+  margin-bottom: 10px;
+}
+
+.btn-xl {
+  padding: 10px 40px;
+  font-size: 20px;
+  background-color: #FFDFDB; 
+  border-color: black;
+  border-radius: 10px;
+}
+
+.view-recipe {
+  background-color: #CEE4D6 !important; 
+  border-color: #CEE4D6;
+}
+
+.subscribe-button {
+  box-shadow: 0.3rem 0.3rem #75897C !important; 
+  background-color: #CEE4D6; 
+  border-color: #CEE4D6;
+}
